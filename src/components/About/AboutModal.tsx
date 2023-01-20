@@ -53,7 +53,7 @@ export const AboutModal = ({ opened, closeModal, newVersionAvailable }: AboutMod
         <Group spacing="sm">
           <Image src="/imgs/logo/logo.png" width={30} height={30} objectFit="contain" />
           <Title order={3} variant="gradient" gradient={colorGradiant}>
-            {t('about')} Homarr
+            {t('about')} Dashee
           </Title>
         </Group>
       }
@@ -88,7 +88,7 @@ export const AboutModal = ({ opened, closeModal, newVersionAvailable }: AboutMod
       <Group grow>
         <Button
           component="a"
-          href="https://github.com/ajnart/homarr"
+          href="https://github.com/Gyarbij/dashee"
           target="_blank"
           leftIcon={<IconBrandGithub size={20} />}
           variant="default"
@@ -97,7 +97,7 @@ export const AboutModal = ({ opened, closeModal, newVersionAvailable }: AboutMod
         </Button>
         <Button
           component="a"
-          href="https://homarr.dev/"
+          href="https://dashee.gyarbij.app/"
           target="_blank"
           leftIcon={<IconWorldWww size={20} />}
           variant="default"
@@ -213,7 +213,7 @@ const useInformationTableItems = (newVersionAvailable?: string): InformationTabl
                 <b>
                   <Anchor
                     target="_blank"
-                    href={`https://github.com/ajnart/homarr/releases/tag/${newVersionAvailable}`}
+                    href={`https://github.com/Gyarbij/dashee/releases/tag/${newVersionAvailable}`}
                   >
                     {newVersionAvailable}
                   </Anchor>
