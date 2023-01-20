@@ -9,7 +9,7 @@ export function Head() {
 
   return (
     <NextHead>
-      <title>{config?.settings.customization.metaTitle || 'Homarr 🦞'}</title>
+      <title>{config?.settings.customization.metaTitle || 'Dashee'}</title>
       <link
         rel="shortcut icon"
         href={config?.settings.customization.faviconUrl || '/imgs/favicon/favicon.svg'}
@@ -24,7 +24,7 @@ export function Head() {
       />
       <meta
         name="apple-mobile-web-app-title"
-        content={config?.settings.customization.metaTitle || 'Homarr'}
+        content={config?.settings.customization.metaTitle || 'Dashee'}
       />
 
       <SafariStatusBarStyle />

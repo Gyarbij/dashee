@@ -16,7 +16,7 @@ export function Logo({ size = 'md', withoutText = false }: LogoProps) {
       <Image
         width={size === 'md' ? 50 : 12}
         src={config?.settings.customization.logoImageUrl || '/imgs/logo/logo-color.svg'}
-        alt="Homarr Logo"
+        alt="Dashee Logo"
       />
       {withoutText ? null : (
         <Text
@@ -25,7 +25,7 @@ export function Logo({ size = 'md', withoutText = false }: LogoProps) {
           variant="gradient"
           gradient={primaryGradient}
         >
-          {config?.settings.customization.pageTitle || 'Homarr'}
+          {config?.settings.customization.pageTitle || 'Dashee'}
         </Text>
       )}
     </Group>
