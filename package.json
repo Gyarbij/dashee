@@ -1,11 +1,11 @@
 {
-  "name": "homarr",
-  "version": "0.11.1",
-  "description": "Homarr - A homepage for your server.",
+  "name": "dashee",
+  "version": "0.0.1",
+  "description": "Dashee - Welcome Home.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ajnart/homarr"
+    "url": "https://github.com/Gyarbij/dashee"
   },
   "scripts": {
     "dev": "next dev",
