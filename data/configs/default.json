@@ -7,7 +7,7 @@
     {
       "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f",
       "position": 1,
-      "name": "Welcome to Homarr 🎉",
+      "name": "Welcome Home",
       "type": "category"
     }
   ],
@@ -82,10 +82,10 @@
     {
       "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a330",
       "name": "Contribute",
-      "url": "https://github.com/ajnart/homarr",
+      "url": "https://github.com/Gyarbij/dashee",
       "behaviour": {
-        "onClickUrl": "https://github.com/ajnart/homarr",
-        "externalUrl": "https://github.com/ajnart/homarr",
+        "onClickUrl": "https://github.com/Gyarbij/dashee",
+        "externalUrl": "https://github.com/Gyarbij/dashee",
         "isOpeningNewTab": true
       },
       "network": {
@@ -310,7 +310,7 @@
       "id": "weather",
       "properties": {
         "displayInFahrenheit": false,
-        "location": "Paris"
+        "location": "Utrecht"
       },
       "area": {
         "type": "category",
@@ -367,7 +367,7 @@
         "enabledPing": false,
         "enabledSearchbar": true
       },
-      "pageTitle": "Homarr v0.11  ⭐️",
+      "pageTitle": "Dashee v0.0.1",
       "logoImageUrl": "/imgs/logo/logo.png",
       "faviconUrl": "/imgs/favicon/favicon-squared",
       "backgroundImageUrl": "",
