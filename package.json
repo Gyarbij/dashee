@@ -60,7 +60,7 @@
     "@trpc/react-query": "^10.29.1",
     "@trpc/server": "^10.29.1",
     "@vitejs/plugin-react": "^4.0.0",
-    "axios": "^1.0.0",
+    "axios": "^1.6.0",
     "consola": "^3.0.0",
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.7",
